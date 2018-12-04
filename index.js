@@ -6,7 +6,7 @@ var app = express();
 app.get("/",function(request,respond){
 	respond.send('<h1>This is my web app</h1>');
 });
-app.get("/",something(request,respond){
+app.get("/something",function(request,respond){
 	respond.send('<h1>This is something</h1>');
 });
 
